@@ -69,6 +69,7 @@ tests/  data/{clips,truth,README.md,fetch_librispeech.py}  results/  docs/
 ```python
 class Provider(ABC):
     name: str
+
     async def transcribe_file(self, path: Path) -> Transcript: ...
     def stream(self, pcm_chunks: AsyncIterator[bytes]) -> AsyncIterator[StreamEvent]: ...
 ```

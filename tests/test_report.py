@@ -79,7 +79,10 @@ def test_markdown_table_and_metadata():
 
 
 def test_markdown_labels_untested_live_adapters():
-    res = {**RESULTS, "providers": {"deepgram": {**RESULTS["providers"]["deepgram"], "live": False}}}
+    res = {
+        **RESULTS,
+        "providers": {"deepgram": {**RESULTS["providers"]["deepgram"], "live": False}},
+    }
     assert "untested against live API" in render_markdown(res)
 
 

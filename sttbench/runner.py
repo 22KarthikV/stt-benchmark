@@ -74,7 +74,7 @@ async def run_benchmark(
     for name, provider in providers.items():
         sem = asyncio.Semaphore(max(1, concurrency))
 
-        async def guarded(clip: Path, provider: Provider = provider) -> dict[str, Any]:
+        async def guarded(clip: Path, provider: Provider = provider, sem=sem) -> dict[str, Any]:
             async with sem:
                 return await _run_clip(
                     provider, clip, refs[clip.stem], attempts=attempts, sleep=sleep, clock=clock

@@ -81,6 +81,9 @@ class FakeProvider(Provider):
                 yield StreamEvent("partial", " ".join(w[:shown]), self.clock(), start_s, end_s)
         if in_utt:
             yield StreamEvent(
-                "final", " ".join(words()), self.clock(), start_chunk * self.chunk_s,
+                "final",
+                " ".join(words()),
+                self.clock(),
+                start_chunk * self.chunk_s,
                 total * self.chunk_s,
             )
