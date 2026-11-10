@@ -1,6 +1,6 @@
 # stt-benchmark — SPEC (draft for approval)
 
-Status: **DRAFT, awaiting approval. No code or tests written yet.**
+Status: **APPROVED (2026-11-10).** Decisions in §2 and §14 are final.
 
 ## 1. Purpose
 
@@ -16,9 +16,9 @@ Portfolio project: correctness and honesty over feature count.
 | Providers | AssemblyAI, Deepgram, **Vosk (local, open source)** — proposed third, see §2a |
 | Dataset | LibriSpeech `test-clean` subset, CC BY 4.0, fetched by a script |
 | Streaming input | File replay only, paced at real time. No browser mic in v1. |
-| Keys | None available now. Everything is built/tested with fakes; real run happens when the user adds keys. |
+| Keys | Read from environment variables only (`.env`, git-ignored). CI and unit tests use fakes. |
 | Cost | **Free only. No paid subscription, no card on file.** See §2a. |
-| Tooling | uv, Python 3.11+, ruff, pytest |
+| Tooling | Python 3.11+ (developed on 3.15), pip + venv (uv optional), ruff, pytest |
 
 ## 2a. Free-only policy
 
@@ -146,19 +146,13 @@ Runtime: `httpx`, `websockets`, `fastapi`, `uvicorn`, `jiwer`. Optional extra `v
 
 `.github/workflows/ci.yml`: on push/PR → `uv sync`, `ruff check`, `ruff format --check`, `pytest`. No secrets.
 
-## 13. Environment limitations found (affects what I can verify)
+## 13. Environment
 
-This sandbox's network proxy returns 403 for openslr.org, api.assemblyai.com, streaming.assemblyai.com and api.deepgram.com (tested just now). So in this session (Vosk model download hosts are presumably blocked too):
-- I **cannot** download LibriSpeech or call any provider. I'll write and unit-test `fetch_librispeech.py` (checksum-verified download, deterministic subset selection by seed), but it will be untested end-to-end unless I get network access or you run it locally.
-- Therefore I cannot produce real results here; README will say "not yet run" until you run it with keys.
-- Demo clips for tests will be synthetic WAVs (generated tones/silence) with fake transcripts, clearly marked as test fixtures and not in `data/clips`.
+Development machine has network access, so `fetch_librispeech.py`, the Vosk model download and real benchmark runs are executed locally. API keys come from environment variables only. CI never touches the network or keys. Demo clips for unit tests are synthetic WAVs (generated tones/silence) with fake transcripts, marked as test fixtures and kept out of `data/clips`.
 
-## 14. Open questions for approval
+## 14. Decisions (resolved)
 
-1. **Third provider** — given free-only: Vosk (local, recommended). OK? (OpenAI, ElevenLabs, Speechmatics dropped as they are paid/credit-gated.)
-2. Subset size: 30 clips (default) OK?
-3. Allow the network exceptions (openslr, the provider hosts) in the cloud environment, or will you run fetch and the benchmark locally? (I'd recommend local.)
-4. Third-party number normaliser (`num2words`) acceptable as a dependency, or keep own rules? Default: own small rules.
+1. Third provider: Vosk (local). 2. Subset: 30 clips. 3. Fetch and benchmark run locally. 4. Own number rules, no `num2words`.
 
 ## 15. Commit plan
 
