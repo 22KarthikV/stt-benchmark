@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>stt-benchmark streaming demo</title>
+<style>
+  body { font-family: system-ui, sans-serif; max-width: 42rem; margin: 2rem auto; padding: 0 1rem; }
+  #banner { background: #fff3cd; padding: .5rem; display: none; }
+  .partial { color: #888; font-style: italic; }
+  .final { color: #111; }
+  #log div { margin: .25rem 0; }
+  #summary { margin-top: 1rem; font-family: monospace; }
+</style>
+</head>
+<body>
+<h1>Streaming demo</h1>
+<p>Replays a clip over a WebSocket at real time. Shows <span class="partial">partial</span> and
+<span class="final">final</span> transcripts as they arrive.</p>
+<div id="banner">FAKE provider: scripted output, not real speech recognition.</div>
+<p>
+  <label>Provider
+    <select id="provider">
+      <option>fake</option><option>assemblyai</option><option>deepgram</option><option>vosk</option>
+    </select></label>
+  <label>Clip <select id="file"></select></label>
+  <button id="go">Start</button>
+</p>
+<div id="log"></div>
+<div id="summary"></div>
+<script>
+const $ = (id) => document.getElementById(id);
+fetch("/clips").then(r => r.json()).then(list => {
+  $("file").innerHTML = list.map(f => `<option>${f}</option>`).join("");
+});
+$("go").onclick = () => {
+  $("log").innerHTML = ""; $("summary").textContent = ""; $("banner").style.display = "none";
+  const proto = location.protocol === "https:" ? "wss" : "ws";
+  const ws = new WebSocket(`${proto}://${location.host}/ws?provider=${$("provider").value}` +
+                           `&file=${encodeURIComponent($("file").value)}`);
+  let partialEl = null;
+  ws.onmessage = (m) => {
+    const d = JSON.parse(m.data);
+    if (d.kind === "info") { $("banner").style.display = d.fake ? "block" : "none"; return; }
+    if (d.kind === "error") { $("summary").textContent = "error: " + d.message; return; }
+    if (d.kind === "done") { $("summary").textContent = JSON.stringify(d.summary, null, 2); return; }
+    if (!partialEl) { partialEl = document.createElement("div"); $("log").appendChild(partialEl); }
+    partialEl.className = d.kind;
+    partialEl.textContent = `[${d.t.toFixed(2)}s] ${d.kind}: ${d.text}`;
+    if (d.kind === "final") partialEl = null;
+  };
+};
+</script>
+</body>
+</html>
