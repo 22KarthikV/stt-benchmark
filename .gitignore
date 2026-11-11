@@ -9,3 +9,5 @@ data/raw/
 data/models/
 data/clips/*.wav
 data/clips/*.flac
+results/server.log
+results/stream_log.jsonl
