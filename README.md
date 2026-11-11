@@ -34,8 +34,8 @@ Run 2026-11-11T13:13:20Z (UTC) · dataset LibriSpeech test-clean (subset) (30 cl
 | Provider | Status |
 |---|---|
 | Vosk | run for real against the downloaded model (see table) |
-| AssemblyAI | run for real against the live API (batch file transcription, see table). The streaming path is **untested against live API**. |
-| Deepgram | run for real against the live API (batch file transcription, see table). The streaming path is **untested against live API**. |
+| AssemblyAI | run for real against the live API (batch file transcription, see table). Streaming was smoke-tested live on a single clip through the demo (not benchmarked). |
+| Deepgram | run for real against the live API (batch file transcription, see table). Streaming was smoke-tested live on a single clip through the demo (not benchmarked). |
 
 Notes on reading the table:
 
