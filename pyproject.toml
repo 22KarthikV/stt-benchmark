@@ -2,6 +2,7 @@
 name = "sttbench"
 version = "0.1.0"
 description = "Speech-to-text benchmark harness: WER, latency, streaming demo"
+license = "MIT"
 requires-python = ">=3.11"
 dependencies = ["httpx", "websockets", "fastapi", "uvicorn", "jiwer"]
 

@@ -122,7 +122,7 @@ CI runs the same with fakes only. See [SPEC.md](SPEC.md) for the design.
 
 ## Licences and attribution
 
-- Code: see repository licence file (none added yet).
+- Code: MIT, see [LICENSE](LICENSE).
 - LibriSpeech: Panayotov, Chen, Povey, Khudanpur, "LibriSpeech: an ASR corpus based on public
   domain audio books", ICASSP 2015. CC BY 4.0. Clips are not committed; the fetch script
   downloads them. Transcripts of the chosen subset are in `data/truth/`.
