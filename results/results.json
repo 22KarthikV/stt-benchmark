@@ -1,16 +1,12 @@
 {
   "meta": {
-    "run_date": "2026-11-11T00:11:31Z",
+    "run_date": "2026-11-11T13:13:20Z",
     "dataset": "LibriSpeech test-clean (subset)",
     "n_clips": 30,
     "norm_version": "norm-v1",
-    "git_sha": "49ef53f"
+    "git_sha": "df65c3e"
   },
   "providers": {
-    "deepgram": {
-      "status": "skipped",
-      "reason": "skipped: no key (DEEPGRAM_API_KEY)"
-    },
     "vosk": {
       "status": "ok",
       "model": "vosk:vosk-model-small-en-us-0.15",
@@ -25,7 +21,7 @@
           "edits": 0,
           "ref_words": 5,
           "wer": 0.0,
-          "latency_s": 1.7099222000688314,
+          "latency_s": 2.79291779990308,
           "duration_s": 2.715,
           "attempts": 1
         },
@@ -37,7 +33,7 @@
           "edits": 3,
           "ref_words": 34,
           "wer": 0.08823529411764706,
-          "latency_s": 1.6076688999310136,
+          "latency_s": 2.818183499854058,
           "duration_s": 13.37,
           "attempts": 1
         },
@@ -49,7 +45,7 @@
           "edits": 3,
           "ref_words": 19,
           "wer": 0.15789473684210525,
-          "latency_s": 1.2806241000071168,
+          "latency_s": 2.244567400077358,
           "duration_s": 10.725,
           "attempts": 1
         },
@@ -61,7 +57,7 @@
           "edits": 8,
           "ref_words": 43,
           "wer": 0.18604651162790697,
-          "latency_s": 1.6110815000720322,
+          "latency_s": 2.895035200053826,
           "duration_s": 14.24,
           "attempts": 1
         },
@@ -73,7 +69,7 @@
           "edits": 4,
           "ref_words": 36,
           "wer": 0.1111111111111111,
-          "latency_s": 1.6776178998406976,
+          "latency_s": 3.0459219000767916,
           "duration_s": 17.285,
           "attempts": 1
         },
@@ -85,7 +81,7 @@
           "edits": 0,
           "ref_words": 7,
           "wer": 0.0,
-          "latency_s": 0.5767155000939965,
+          "latency_s": 0.9389193998649716,
           "duration_s": 2.29,
           "attempts": 1
         },
@@ -97,7 +93,7 @@
           "edits": 0,
           "ref_words": 10,
           "wer": 0.0,
-          "latency_s": 0.8004792998544872,
+          "latency_s": 1.4199024999979883,
           "duration_s": 3.2,
           "attempts": 1
         },
@@ -109,7 +105,7 @@
           "edits": 3,
           "ref_words": 21,
           "wer": 0.14285714285714285,
-          "latency_s": 1.1518145001027733,
+          "latency_s": 2.0778248999267817,
           "duration_s": 5.915,
           "attempts": 1
         },
@@ -121,7 +117,7 @@
           "edits": 1,
           "ref_words": 27,
           "wer": 0.037037037037037035,
-          "latency_s": 1.13671789993532,
+          "latency_s": 2.0286534999031574,
           "duration_s": 7.04,
           "attempts": 1
         },
@@ -133,7 +129,7 @@
           "edits": 0,
           "ref_words": 21,
           "wer": 0.0,
-          "latency_s": 1.1266776002012193,
+          "latency_s": 1.823344700038433,
           "duration_s": 5.73,
           "attempts": 1
         },
@@ -145,7 +141,7 @@
           "edits": 0,
           "ref_words": 9,
           "wer": 0.0,
-          "latency_s": 0.78353640018031,
+          "latency_s": 1.3021523000206798,
           "duration_s": 3.725,
           "attempts": 1
         },
@@ -157,7 +153,7 @@
           "edits": 0,
           "ref_words": 9,
           "wer": 0.0,
-          "latency_s": 0.7793745999224484,
+          "latency_s": 1.1494402999524027,
           "duration_s": 3.47,
           "attempts": 1
         },
@@ -169,7 +165,7 @@
           "edits": 0,
           "ref_words": 8,
           "wer": 0.0,
-          "latency_s": 0.7377168999519199,
+          "latency_s": 1.1592568999622017,
           "duration_s": 2.315,
           "attempts": 1
         },
@@ -181,7 +177,7 @@
           "edits": 2,
           "ref_words": 6,
           "wer": 0.3333333333333333,
-          "latency_s": 0.7528808999340981,
+          "latency_s": 1.1511693000793457,
           "duration_s": 3.695,
           "attempts": 1
         },
@@ -193,7 +189,7 @@
           "edits": 1,
           "ref_words": 19,
           "wer": 0.05263157894736842,
-          "latency_s": 1.0443759998306632,
+          "latency_s": 1.6738779998850077,
           "duration_s": 7.085,
           "attempts": 1
         },
@@ -205,7 +201,7 @@
           "edits": 6,
           "ref_words": 53,
           "wer": 0.11320754716981132,
-          "latency_s": 1.8921823999844491,
+          "latency_s": 3.243484999984503,
           "duration_s": 21.185,
           "attempts": 1
         },
@@ -217,7 +213,7 @@
           "edits": 4,
           "ref_words": 27,
           "wer": 0.14814814814814814,
-          "latency_s": 1.2057749000377953,
+          "latency_s": 1.9296981999650598,
           "duration_s": 7.57,
           "attempts": 1
         },
@@ -229,7 +225,7 @@
           "edits": 4,
           "ref_words": 35,
           "wer": 0.11428571428571428,
-          "latency_s": 1.5271332000847906,
+          "latency_s": 2.5779885998927057,
           "duration_s": 11.945,
           "attempts": 1
         },
@@ -241,7 +237,7 @@
           "edits": 3,
           "ref_words": 18,
           "wer": 0.16666666666666666,
-          "latency_s": 1.0826598999556154,
+          "latency_s": 1.7583123999647796,
           "duration_s": 5.455,
           "attempts": 1
         },
@@ -253,7 +249,7 @@
           "edits": 0,
           "ref_words": 3,
           "wer": 0.0,
-          "latency_s": 0.6749026998877525,
+          "latency_s": 1.0811582999303937,
           "duration_s": 2.31,
           "attempts": 1
         },
@@ -265,7 +261,7 @@
           "edits": 0,
           "ref_words": 19,
           "wer": 0.0,
-          "latency_s": 1.1117595999967307,
+          "latency_s": 1.813918299973011,
           "duration_s": 8.825,
           "attempts": 1
         },
@@ -277,7 +273,7 @@
           "edits": 2,
           "ref_words": 6,
           "wer": 0.3333333333333333,
-          "latency_s": 0.7235865001566708,
+          "latency_s": 1.1214860000181943,
           "duration_s": 2.505,
           "attempts": 1
         },
@@ -289,7 +285,7 @@
           "edits": 0,
           "ref_words": 22,
           "wer": 0.0,
-          "latency_s": 1.2748338000383228,
+          "latency_s": 1.7356038000434637,
           "duration_s": 6.495,
           "attempts": 1
         },
@@ -301,7 +297,7 @@
           "edits": 1,
           "ref_words": 27,
           "wer": 0.037037037037037035,
-          "latency_s": 1.7548617001157254,
+          "latency_s": 2.3541902999859303,
           "duration_s": 9.24,
           "attempts": 1
         },
@@ -313,7 +309,7 @@
           "edits": 2,
           "ref_words": 21,
           "wer": 0.09523809523809523,
-          "latency_s": 1.6725411000661552,
+          "latency_s": 1.9467261000536382,
           "duration_s": 7.355,
           "attempts": 1
         },
@@ -325,7 +321,7 @@
           "edits": 0,
           "ref_words": 6,
           "wer": 0.0,
-          "latency_s": 0.9171996999066323,
+          "latency_s": 1.1803892999887466,
           "duration_s": 3.02,
           "attempts": 1
         },
@@ -337,7 +333,7 @@
           "edits": 1,
           "ref_words": 9,
           "wer": 0.1111111111111111,
-          "latency_s": 0.8821715000085533,
+          "latency_s": 1.3632183999288827,
           "duration_s": 2.985,
           "attempts": 1
         },
@@ -349,7 +345,7 @@
           "edits": 4,
           "ref_words": 17,
           "wer": 0.23529411764705882,
-          "latency_s": 1.6108279000036418,
+          "latency_s": 1.8299566998612136,
           "duration_s": 7.735,
           "attempts": 1
         },
@@ -361,7 +357,7 @@
           "edits": 9,
           "ref_words": 45,
           "wer": 0.2,
-          "latency_s": 1.9603394998703152,
+          "latency_s": 2.757851699832827,
           "duration_s": 13.175,
           "attempts": 1
         },
@@ -373,7 +369,7 @@
           "edits": 6,
           "ref_words": 20,
           "wer": 0.3,
-          "latency_s": 1.540393700124696,
+          "latency_s": 2.1138686002232134,
           "duration_s": 9.575,
           "attempts": 1
         }
@@ -393,7 +389,7 @@
           "edits": 0,
           "ref_words": 5,
           "wer": 0.0,
-          "latency_s": 3.7586600999347866,
+          "latency_s": 3.5854870001785457,
           "duration_s": 2.715,
           "attempts": 1
         },
@@ -405,7 +401,7 @@
           "edits": 0,
           "ref_words": 34,
           "wer": 0.0,
-          "latency_s": 3.9159482999239117,
+          "latency_s": 3.5944678999949247,
           "duration_s": 13.37,
           "attempts": 1
         },
@@ -417,7 +413,7 @@
           "edits": 0,
           "ref_words": 19,
           "wer": 0.0,
-          "latency_s": 3.9128310000523925,
+          "latency_s": 3.6006197999231517,
           "duration_s": 10.725,
           "attempts": 1
         },
@@ -429,7 +425,7 @@
           "edits": 0,
           "ref_words": 43,
           "wer": 0.0,
-          "latency_s": 4.087476599961519,
+          "latency_s": 3.558430700097233,
           "duration_s": 14.24,
           "attempts": 1
         },
@@ -441,7 +437,7 @@
           "edits": 1,
           "ref_words": 36,
           "wer": 0.027777777777777776,
-          "latency_s": 4.048851300030947,
+          "latency_s": 3.6271746000275016,
           "duration_s": 17.285,
           "attempts": 1
         },
@@ -453,7 +449,7 @@
           "edits": 0,
           "ref_words": 7,
           "wer": 0.0,
-          "latency_s": 3.5709057000931352,
+          "latency_s": 3.3593743999954313,
           "duration_s": 2.29,
           "attempts": 1
         },
@@ -465,7 +461,7 @@
           "edits": 0,
           "ref_words": 10,
           "wer": 0.0,
-          "latency_s": 3.5932945001404732,
+          "latency_s": 3.5187378998380154,
           "duration_s": 3.2,
           "attempts": 1
         },
@@ -477,7 +473,7 @@
           "edits": 1,
           "ref_words": 21,
           "wer": 0.047619047619047616,
-          "latency_s": 3.8428483000025153,
+          "latency_s": 3.626260600052774,
           "duration_s": 5.915,
           "attempts": 1
         },
@@ -489,7 +485,7 @@
           "edits": 0,
           "ref_words": 27,
           "wer": 0.0,
-          "latency_s": 3.757531300187111,
+          "latency_s": 3.5988080999813974,
           "duration_s": 7.04,
           "attempts": 1
         },
@@ -501,7 +497,7 @@
           "edits": 0,
           "ref_words": 21,
           "wer": 0.0,
-          "latency_s": 3.717531100148335,
+          "latency_s": 3.772621500073001,
           "duration_s": 5.73,
           "attempts": 1
         },
@@ -513,7 +509,7 @@
           "edits": 0,
           "ref_words": 9,
           "wer": 0.0,
-          "latency_s": 3.8519631000235677,
+          "latency_s": 3.5279820999130607,
           "duration_s": 3.725,
           "attempts": 1
         },
@@ -525,7 +521,7 @@
           "edits": 0,
           "ref_words": 9,
           "wer": 0.0,
-          "latency_s": 3.7609121000859886,
+          "latency_s": 3.6407286000903696,
           "duration_s": 3.47,
           "attempts": 1
         },
@@ -537,7 +533,7 @@
           "edits": 0,
           "ref_words": 8,
           "wer": 0.0,
-          "latency_s": 3.5777941001579165,
+          "latency_s": 3.4876640997827053,
           "duration_s": 2.315,
           "attempts": 1
         },
@@ -549,7 +545,7 @@
           "edits": 2,
           "ref_words": 6,
           "wer": 0.3333333333333333,
-          "latency_s": 3.8319244999438524,
+          "latency_s": 3.575520300073549,
           "duration_s": 3.695,
           "attempts": 1
         },
@@ -561,7 +557,7 @@
           "edits": 4,
           "ref_words": 19,
           "wer": 0.21052631578947367,
-          "latency_s": 3.7905157001223415,
+          "latency_s": 3.7437235000543296,
           "duration_s": 7.085,
           "attempts": 1
         },
@@ -573,7 +569,7 @@
           "edits": 2,
           "ref_words": 53,
           "wer": 0.03773584905660377,
-          "latency_s": 4.077841500053182,
+          "latency_s": 3.6862085999455303,
           "duration_s": 21.185,
           "attempts": 1
         },
@@ -585,7 +581,7 @@
           "edits": 0,
           "ref_words": 27,
           "wer": 0.0,
-          "latency_s": 3.8524199000094086,
+          "latency_s": 3.934350399998948,
           "duration_s": 7.57,
           "attempts": 1
         },
@@ -597,7 +593,7 @@
           "edits": 0,
           "ref_words": 35,
           "wer": 0.0,
-          "latency_s": 3.6170230000279844,
+          "latency_s": 3.9950232999399304,
           "duration_s": 11.945,
           "attempts": 1
         },
@@ -609,7 +605,7 @@
           "edits": 1,
           "ref_words": 18,
           "wer": 0.05555555555555555,
-          "latency_s": 3.687338200164959,
+          "latency_s": 5.21909200004302,
           "duration_s": 5.455,
           "attempts": 1
         },
@@ -621,7 +617,7 @@
           "edits": 0,
           "ref_words": 3,
           "wer": 0.0,
-          "latency_s": 3.422948499908671,
+          "latency_s": 3.9731284000445157,
           "duration_s": 2.31,
           "attempts": 1
         },
@@ -633,7 +629,7 @@
           "edits": 0,
           "ref_words": 19,
           "wer": 0.0,
-          "latency_s": 3.5643224997911602,
+          "latency_s": 5.757417700020596,
           "duration_s": 8.825,
           "attempts": 1
         },
@@ -645,7 +641,7 @@
           "edits": 0,
           "ref_words": 6,
           "wer": 0.0,
-          "latency_s": 3.35262109991163,
+          "latency_s": 3.8088785000145435,
           "duration_s": 2.505,
           "attempts": 1
         },
@@ -657,7 +653,7 @@
           "edits": 2,
           "ref_words": 22,
           "wer": 0.09090909090909091,
-          "latency_s": 3.504943900043145,
+          "latency_s": 5.150865900097415,
           "duration_s": 6.495,
           "attempts": 1
         },
@@ -669,7 +665,7 @@
           "edits": 0,
           "ref_words": 27,
           "wer": 0.0,
-          "latency_s": 3.5957971999887377,
+          "latency_s": 4.080513400025666,
           "duration_s": 9.24,
           "attempts": 1
         },
@@ -681,7 +677,7 @@
           "edits": 0,
           "ref_words": 21,
           "wer": 0.0,
-          "latency_s": 3.8390822000801563,
+          "latency_s": 4.106236699968576,
           "duration_s": 7.355,
           "attempts": 1
         },
@@ -693,7 +689,7 @@
           "edits": 0,
           "ref_words": 6,
           "wer": 0.0,
-          "latency_s": 3.443627999862656,
+          "latency_s": 3.8038075000513345,
           "duration_s": 3.02,
           "attempts": 1
         },
@@ -705,7 +701,7 @@
           "edits": 1,
           "ref_words": 9,
           "wer": 0.1111111111111111,
-          "latency_s": 3.4148447001352906,
+          "latency_s": 3.827816199976951,
           "duration_s": 2.985,
           "attempts": 1
         },
@@ -717,7 +713,7 @@
           "edits": 0,
           "ref_words": 17,
           "wer": 0.0,
-          "latency_s": 3.7718018998857588,
+          "latency_s": 4.142930399859324,
           "duration_s": 7.735,
           "attempts": 1
         },
@@ -729,7 +725,7 @@
           "edits": 0,
           "ref_words": 45,
           "wer": 0.0,
-          "latency_s": 4.8505269000306726,
+          "latency_s": 3.9377109000924975,
           "duration_s": 13.175,
           "attempts": 1
         },
@@ -741,7 +737,375 @@
           "edits": 1,
           "ref_words": 20,
           "wer": 0.05,
-          "latency_s": 3.635495000053197,
+          "latency_s": 5.426098000025377,
+          "duration_s": 9.575,
+          "attempts": 1
+        }
+      ]
+    },
+    "deepgram": {
+      "status": "ok",
+      "model": "nova-3",
+      "live": true,
+      "audio_s_sent": 222.175,
+      "clips": [
+        {
+          "clip": "1089-134686-0030",
+          "reference": "BEWARE OF MAKING THAT MISTAKE\n",
+          "status": "ok",
+          "text": "Beware of making that mistake.",
+          "edits": 0,
+          "ref_words": 5,
+          "wer": 0.0,
+          "latency_s": 0.752720900112763,
+          "duration_s": 2.715,
+          "attempts": 1
+        },
+        {
+          "clip": "1089-134691-0021",
+          "reference": "THEIR DIVING STONE POISED ON ITS RUDE SUPPORTS AND ROCKING UNDER THEIR PLUNGES AND THE ROUGH HEWN STONES OF THE SLOPING BREAKWATER OVER WHICH THEY SCRAMBLED IN THEIR HORSEPLAY GLEAMED WITH COLD WET LUSTRE\n",
+          "status": "ok",
+          "text": "Their diving stone poised on its rude supports and rocking under their plunges and the rough hewn stones of the sloping breakwater over which they scrambled in their horseplay gleamed with cold, wet luster.",
+          "edits": 1,
+          "ref_words": 34,
+          "wer": 0.029411764705882353,
+          "latency_s": 0.9206039998680353,
+          "duration_s": 13.37,
+          "attempts": 1
+        },
+        {
+          "clip": "1188-133604-0000",
+          "reference": "YOU WILL FIND ME CONTINUALLY SPEAKING OF FOUR MEN TITIAN HOLBEIN TURNER AND TINTORET IN ALMOST THE SAME TERMS\n",
+          "status": "ok",
+          "text": "You will find me continually speaking of four men, Titian, Holbein, Turner, and Tintorette in almost the same terms.",
+          "edits": 1,
+          "ref_words": 19,
+          "wer": 0.05263157894736842,
+          "latency_s": 0.9292310997843742,
+          "duration_s": 10.725,
+          "attempts": 1
+        },
+        {
+          "clip": "1188-133604-0007",
+          "reference": "THE BROWN GROUND BENEATH IS LEFT FOR THE MOST PART ONE TOUCH OF BLACK IS PUT FOR THE HOLLOW TWO DELICATE LINES OF DARK GRAY DEFINE THE OUTER CURVE AND ONE LITTLE QUIVERING TOUCH OF WHITE DRAWS THE INNER EDGE OF THE MANDIBLE\n",
+          "status": "ok",
+          "text": "The brown ground beneath is left for the most part. One touch of black is put for the hollow, two delicate lines of dark gray define the outer curve, and one little quivering touch of white draws the inner edge of the mandible.",
+          "edits": 0,
+          "ref_words": 43,
+          "wer": 0.0,
+          "latency_s": 0.8093632000964135,
+          "duration_s": 14.24,
+          "attempts": 1
+        },
+        {
+          "clip": "121-123852-0002",
+          "reference": "NO MATTER THEN ALTHOUGH MY FOOT DID STAND UPON THE FARTHEST EARTH REMOV'D FROM THEE FOR NIMBLE THOUGHT CAN JUMP BOTH SEA AND LAND AS SOON AS THINK THE PLACE WHERE HE WOULD BE BUT AH\n",
+          "status": "ok",
+          "text": "No matter then, although my foot did stand upon the farthest earth removed from thee, For nimble thought can jump both sea and land as soon as think the place where he would be. But",
+          "edits": 2,
+          "ref_words": 36,
+          "wer": 0.05555555555555555,
+          "latency_s": 0.8472970998845994,
+          "duration_s": 17.285,
+          "attempts": 1
+        },
+        {
+          "clip": "121-127105-0009",
+          "reference": "SHE HAS BEEN DEAD THESE TWENTY YEARS\n",
+          "status": "ok",
+          "text": "She has been dead these twenty years.",
+          "edits": 0,
+          "ref_words": 7,
+          "wer": 0.0,
+          "latency_s": 0.5210703001357615,
+          "duration_s": 2.29,
+          "attempts": 1
+        },
+        {
+          "clip": "1284-1181-0019",
+          "reference": "I NOW USE THEM AS ORNAMENTAL STATUARY IN MY GARDEN\n",
+          "status": "ok",
+          "text": "I now use them as ornamental statuary in my garden.",
+          "edits": 0,
+          "ref_words": 10,
+          "wer": 0.0,
+          "latency_s": 0.6187386999372393,
+          "duration_s": 3.2,
+          "attempts": 1
+        },
+        {
+          "clip": "1320-122612-0005",
+          "reference": "YET HERE ARE WE WITHIN A SHORT RANGE OF THE SCAROONS AND NOT A SIGN OF A TRAIL HAVE WE CROSSED\n",
+          "status": "ok",
+          "text": "Yet here are we within a short range of the scaroons, and not a sign of a trail have we crossed.",
+          "edits": 0,
+          "ref_words": 21,
+          "wer": 0.0,
+          "latency_s": 0.6950970999896526,
+          "duration_s": 5.915,
+          "attempts": 1
+        },
+        {
+          "clip": "1580-141083-0009",
+          "reference": "THE ALTERNATIVE WAS THAT SOMEONE PASSING HAD OBSERVED THE KEY IN THE DOOR HAD KNOWN THAT I WAS OUT AND HAD ENTERED TO LOOK AT THE PAPERS\n",
+          "status": "ok",
+          "text": "The alternative was that someone passing had observed the key in the door, had known that I was out, and had entered to look at the papers.",
+          "edits": 0,
+          "ref_words": 27,
+          "wer": 0.0,
+          "latency_s": 0.7123348000459373,
+          "duration_s": 7.04,
+          "attempts": 1
+        },
+        {
+          "clip": "1580-141083-0037",
+          "reference": "WHAT COULD HE DO HE CAUGHT UP EVERYTHING WHICH WOULD BETRAY HIM AND HE RUSHED INTO YOUR BEDROOM TO CONCEAL HIMSELF\n",
+          "status": "ok",
+          "text": "What could he do? He caught up everything which would betray him, and he rushed into your bedroom to conceal himself.",
+          "edits": 0,
+          "ref_words": 21,
+          "wer": 0.0,
+          "latency_s": 1.006402499973774,
+          "duration_s": 5.73,
+          "attempts": 1
+        },
+        {
+          "clip": "1580-141083-0039",
+          "reference": "AND THEY ARE ALL IN FOR THIS EXAMINATION YES\n",
+          "status": "ok",
+          "text": "And they are all in for this examination? Yes?",
+          "edits": 0,
+          "ref_words": 9,
+          "wer": 0.0,
+          "latency_s": 0.6027754000388086,
+          "duration_s": 3.725,
+          "attempts": 1
+        },
+        {
+          "clip": "1580-141084-0015",
+          "reference": "HE IMPRESSED ME AS BEING A PERFECTLY HONEST MAN\n",
+          "status": "ok",
+          "text": "He impressed me as being a perfectly honest man.",
+          "edits": 0,
+          "ref_words": 9,
+          "wer": 0.0,
+          "latency_s": 0.5994692000094801,
+          "duration_s": 3.47,
+          "attempts": 1
+        },
+        {
+          "clip": "1995-1836-0002",
+          "reference": "WHY SHOULD HE NOT BE AS OTHER MEN\n",
+          "status": "ok",
+          "text": "Why should he not be as other men?",
+          "edits": 0,
+          "ref_words": 8,
+          "wer": 0.0,
+          "latency_s": 0.503295199945569,
+          "duration_s": 2.315,
+          "attempts": 1
+        },
+        {
+          "clip": "1995-1836-0012",
+          "reference": "BUT WE'RE NOT ER EXACTLY WELCOMED\n",
+          "status": "ok",
+          "text": "But we're not a exactly welcome.",
+          "edits": 2,
+          "ref_words": 6,
+          "wer": 0.3333333333333333,
+          "latency_s": 0.6575748000759631,
+          "duration_s": 3.695,
+          "attempts": 1
+        },
+        {
+          "clip": "2300-131720-0036",
+          "reference": "THE METER CONTINUED IN GENERAL SERVICE DURING EIGHTEEN NINETY NINE AND PROBABLY UP TO THE CLOSE OF THE CENTURY\n",
+          "status": "ok",
+          "text": "The meter continued in general service during 1899 and probably up to the close of the century.",
+          "edits": 4,
+          "ref_words": 19,
+          "wer": 0.21052631578947367,
+          "latency_s": 0.7092755001503974,
+          "duration_s": 7.085,
+          "attempts": 1
+        },
+        {
+          "clip": "260-123288-0015",
+          "reference": "FROM THE UNDER SURFACE OF THE CLOUDS THERE ARE CONTINUAL EMISSIONS OF LURID LIGHT ELECTRIC MATTER IS IN CONTINUAL EVOLUTION FROM THEIR COMPONENT MOLECULES THE GASEOUS ELEMENTS OF THE AIR NEED TO BE SLAKED WITH MOISTURE FOR INNUMERABLE COLUMNS OF WATER RUSH UPWARDS INTO THE AIR AND FALL BACK AGAIN IN WHITE FOAM\n",
+          "status": "ok",
+          "text": "From the undersurface of the clouds there are continual emissions of lurid light. Electric matter is in continual evolution from their component molecules. The gaseous elements of the air need to be slaked with moisture for innumerable columns of water rush upwards into the air and fall back again in white foam.",
+          "edits": 2,
+          "ref_words": 53,
+          "wer": 0.03773584905660377,
+          "latency_s": 1.273312299977988,
+          "duration_s": 21.185,
+          "attempts": 1
+        },
+        {
+          "clip": "3570-5696-0010",
+          "reference": "AN ARTICLE MAY BE USEFUL AND WASTEFUL BOTH AND ITS UTILITY TO THE CONSUMER MAY BE MADE UP OF USE AND WASTE IN THE MOST VARYING PROPORTIONS\n",
+          "status": "ok",
+          "text": "An article may be useful and wasteful both, and its utility to the consumer may be made up of use and waste in the most varying proportions.",
+          "edits": 0,
+          "ref_words": 27,
+          "wer": 0.0,
+          "latency_s": 1.4402167999651283,
+          "duration_s": 7.57,
+          "attempts": 1
+        },
+        {
+          "clip": "3575-170457-0053",
+          "reference": "BUT ANNE HAD BEGUN TO SUFFER JUST BEFORE THE HOLIDAYS AND CHARLOTTE WATCHED OVER HER YOUNGER SISTERS WITH THE JEALOUS VIGILANCE OF SOME WILD CREATURE THAT CHANGES HER VERY NATURE IF DANGER THREATENS HER YOUNG\n",
+          "status": "ok",
+          "text": "But Anne had begun to suffer just before the holidays, and Charlotte watched over her younger sisters with a jealous vigilance of some wild creature that changes her very nature if danger threatens her young.",
+          "edits": 1,
+          "ref_words": 35,
+          "wer": 0.02857142857142857,
+          "latency_s": 1.4880541998427361,
+          "duration_s": 11.945,
+          "attempts": 1
+        },
+        {
+          "clip": "5105-28240-0000",
+          "reference": "FAST AS HIS LEGS COULD CARRY HIM SERVADAC HAD MADE HIS WAY TO THE TOP OF THE CLIFF\n",
+          "status": "ok",
+          "text": "Fast as his legs could carry him, Servadak had made his way to the top of the cliff.",
+          "edits": 1,
+          "ref_words": 18,
+          "wer": 0.05555555555555555,
+          "latency_s": 1.2768214999232441,
+          "duration_s": 5.455,
+          "attempts": 1
+        },
+        {
+          "clip": "5105-28241-0010",
+          "reference": "OCEAN REIGNED SUPREME\n",
+          "status": "ok",
+          "text": "Ocean reigned supreme.",
+          "edits": 0,
+          "ref_words": 3,
+          "wer": 0.0,
+          "latency_s": 0.9936593000311404,
+          "duration_s": 2.31,
+          "attempts": 1
+        },
+        {
+          "clip": "672-122797-0020",
+          "reference": "BUT THE TREE DID NOT REJOICE AT ALL HE GREW AND GREW AND WAS GREEN BOTH WINTER AND SUMMER\n",
+          "status": "ok",
+          "text": "But the tree did not rejoice at all. He grew and grew and was green both winter and summer.",
+          "edits": 0,
+          "ref_words": 19,
+          "wer": 0.0,
+          "latency_s": 1.4736694998573512,
+          "duration_s": 8.825,
+          "attempts": 1
+        },
+        {
+          "clip": "6829-68769-0038",
+          "reference": "AND IT RUINS A MAN'S DISPOSITION\n",
+          "status": "ok",
+          "text": "And it ruins a man's disposition.",
+          "edits": 0,
+          "ref_words": 6,
+          "wer": 0.0,
+          "latency_s": 0.8304804000072181,
+          "duration_s": 2.505,
+          "attempts": 1
+        },
+        {
+          "clip": "6829-68769-0048",
+          "reference": "GIVE ME A CHECK FOR A HUNDRED AND FIFTY AND I'LL TURN OVER TO YOU THE FORGED CHECK AND QUASH FURTHER PROCEEDINGS\n",
+          "status": "ok",
+          "text": "Give me a check for a 150, and I'll turn over to you the forged check and quash further proceedings.",
+          "edits": 2,
+          "ref_words": 22,
+          "wer": 0.09090909090909091,
+          "latency_s": 1.2005952999461442,
+          "duration_s": 6.495,
+          "attempts": 1
+        },
+        {
+          "clip": "6930-76324-0011",
+          "reference": "THEY WORRY ME TERRIBLY AND BESIDES I'D LIKE TO SEE WHAT THIS LOVELY FURNITURE LOOKS LIKE WITHOUT SUCH QUANTITIES OF DUST ALL OVER IT GOOD SCHEME CYN\n",
+          "status": "ok",
+          "text": "They worry me terribly. And besides, I'd like to see what this lovely furniture looks like without such quantities of dust all over it. Good scheme, Sin.",
+          "edits": 1,
+          "ref_words": 27,
+          "wer": 0.037037037037037035,
+          "latency_s": 1.7781903001014143,
+          "duration_s": 9.24,
+          "attempts": 1
+        },
+        {
+          "clip": "6930-76324-0021",
+          "reference": "SURFACE DUST AT LEAST HAD BEEN REMOVED AND THE FINE OLD FURNITURE GAVE A HINT OF ITS REAL ELEGANCE AND POLISH\n",
+          "status": "ok",
+          "text": "Surface dust at least had been removed, and the fine old furniture gave a hint of its real elegance and polish.",
+          "edits": 0,
+          "ref_words": 21,
+          "wer": 0.0,
+          "latency_s": 1.4112527000252157,
+          "duration_s": 7.355,
+          "attempts": 1
+        },
+        {
+          "clip": "7021-85628-0000",
+          "reference": "BUT ANDERS CARED NOTHING ABOUT THAT\n",
+          "status": "ok",
+          "text": "But Anders cared nothing about that.",
+          "edits": 0,
+          "ref_words": 6,
+          "wer": 0.0,
+          "latency_s": 0.8799349998589605,
+          "duration_s": 3.02,
+          "attempts": 1
+        },
+        {
+          "clip": "7176-92135-0029",
+          "reference": "I WANT TO GET AWAY FROM IT ALL SWOONS\n",
+          "status": "ok",
+          "text": "I want to get away from it all. Swoon.",
+          "edits": 1,
+          "ref_words": 9,
+          "wer": 0.1111111111111111,
+          "latency_s": 1.1186291999183595,
+          "duration_s": 2.985,
+          "attempts": 1
+        },
+        {
+          "clip": "8455-210777-0028",
+          "reference": "JACK WOULD BECOME EVA'S HAPPY HUSBAND AND WOULD REMAIN AMIDST THE HURRIED DUTIES OF THE EAGER WORLD\n",
+          "status": "ok",
+          "text": "Jack would become Eva's happy husband and would remain amidst the hurried duties of the eager world.",
+          "edits": 0,
+          "ref_words": 17,
+          "wer": 0.0,
+          "latency_s": 1.1842266998719424,
+          "duration_s": 7.735,
+          "attempts": 1
+        },
+        {
+          "clip": "8555-284447-0021",
+          "reference": "THEN THEY SPED IN GREAT HASTE FOR THE DOOR AND THE GOAT GAVE A FINAL BUTT THAT SENT THE ROW OF ROYAL LADIES ALL DIVING INTO THE CORRIDOR IN ANOTHER TANGLE WHEREUPON THEY SHRIEKED IN A MANNER THAT TERRIFIED EVERYONE WITHIN SOUND OF THEIR VOICES\n",
+          "status": "ok",
+          "text": "Then they sped in great haste for the door, and the goat gave a final butt that sent the row of royal ladies all diving into the corridor in another tangle, whereupon they shrieked in a manner that terrified everyone within sound of their voices.",
+          "edits": 0,
+          "ref_words": 45,
+          "wer": 0.0,
+          "latency_s": 1.4483575001358986,
+          "duration_s": 13.175,
+          "attempts": 1
+        },
+        {
+          "clip": "8555-292519-0005",
+          "reference": "WHILE THE OLD GOLD AND THE MARBLE STAYS FOREVER GLEAMING ITS SOFT STRONG BLAZE CALM IN THE EARLY EVENING GLOW\n",
+          "status": "ok",
+          "text": "While the old gold and the marble stays, forever gleaming its soft, strong blaze calm in the early evening glow.",
+          "edits": 0,
+          "ref_words": 20,
+          "wer": 0.0,
+          "latency_s": 1.2053652999456972,
           "duration_s": 9.575,
           "attempts": 1
         }
