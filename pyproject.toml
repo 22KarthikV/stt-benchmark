@@ -7,7 +7,8 @@ dependencies = ["httpx", "websockets", "fastapi", "uvicorn", "jiwer"]
 
 [project.optional-dependencies]
 vosk = ["vosk"]
-dev = ["pytest", "pytest-asyncio", "ruff"]
+dev = ["pytest", "pytest-asyncio", "ruff", "numpy"]
+data = ["soundfile"]
 
 [build-system]
 requires = ["setuptools>=68"]
